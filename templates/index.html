@@ -226,21 +226,20 @@
         <form>
             <div>
             <label for="Email1">Email Address</label>
-             <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp" placeholder="Enter email" required>
+             <input type="email" class="email" id="Email1" aria-describedby="emailHelp" placeholder="Enter email"  required>
              </div>
              <div>
-                 <label for="firstname">First Name</label>
+                 <label for="firstname" class="Firstname">First Name</label>
+                 <input type="text"  required>
+             </div>
+             <div>
+                 <label for="lastname" class="Lastname">Last Name</label>
                  <input type="text" required>
              </div>
              <div>
-                 <label for="lastname">Last Name</label>
-                 <input type="text" required>
-             </div>
-             <div>
-                 <label for="message">Do you have anything to say?</label>
+                 <label for="message" class="message">Do you have anything to say?</label>
                   <textarea rows="2" cols="50" required>
                  </textarea>
-
              </div>
              <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -250,17 +249,7 @@
     <footer>
       <div class="container">
         <p>&copy; RApps 2019. All Rights Reserved.</p>
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="#">Privacy</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">Terms</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#">FAQ</a>
-          </li>
-        </ul>
+
       </div>
     </footer>
 
